@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="57" total="60" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-30T06:31:59 IST" name="Suite" finished-at="2026-10-30T06:31:59 IST" duration-ms="86">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestScenario2.fifth_testcase()[pri:-1, instance:testngdemo.TestScenario2@5f058f00]" name="fifth_testcase" class="testngdemo.TestScenario2"/>
+        <method signature="TestScenario3.fourth_testcase()[pri:0, instance:testngdemo.TestScenario3@192d43ce]" name="fourth_testcase" class="testngdemo.TestScenario3"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="TestScenario2.fourth_testcase()[pri:0, instance:testngdemo.TestScenario2@5f058f00]" name="fourth_testcase" class="testngdemo.TestScenario2"/>
+        <method signature="TestScenario3.fourth_testcase()[pri:0, instance:testngdemo.TestScenario3@192d43ce]" name="fourth_testcase" class="testngdemo.TestScenario3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-10-30T06:31:59 IST" name="Test" finished-at="2026-10-30T06:31:59 IST" duration-ms="86">
+      <class name="testngdemo.TestScenario2">
+        <test-method signature="fifth_testcase()[pri:-1, instance:testngdemo.TestScenario2@5f058f00]" started-at="2026-10-30T06:31:59 IST" name="fifth_testcase" finished-at="2026-10-30T06:31:59 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifth_testcase -->
+        <test-method signature="fourth_testcase()[pri:0, instance:testngdemo.TestScenario2@5f058f00]" started-at="2026-10-30T06:31:59 IST" name="fourth_testcase" finished-at="2026-10-30T06:31:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourth_testcase -->
+      </class> <!-- testngdemo.TestScenario2 -->
+      <class name="testngdemo.TestScenario3">
+        <test-method signature="fourth_testcase()[pri:0, instance:testngdemo.TestScenario3@192d43ce]" started-at="2026-10-30T06:31:59 IST" name="fourth_testcase" finished-at="2026-10-30T06:31:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourth_testcase -->
+      </class> <!-- testngdemo.TestScenario3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

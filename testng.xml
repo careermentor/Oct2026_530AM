@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngdemo.TestScenario8"/>
+      
+      <class name="testngdemo.TestScenario9"/>
+      <class name="org.xyz.automation.saucedemo.CalendarDemo"/>
+      <class name="testngdemo.TestScenario2"/>
+      <class name="testngdemo.TestScenario3"/>
+      <class name="testngdemo.TestScenario1"/>
+      <class name="testngdemo.TestScenario6"/>
+      <class name="testngdemo.TestScenario7"/>
+      <class name="org.xyz.automation.saucedemo.SauceDemo_List"/>
+      <class name="testngdemo.TestScenario4"/>
+      <class name="testngdemo.TestScenario5"/>
+      <class name="org.xyz.automation.saucedemo.HandlingBrowser"/>
+      <class name="testngdemo.TestScenario10"/>
+      <class name="org.xyz.automation.saucedemo.FirstAutomation"/>
+      <class name="org.xyz.automation.saucedemo.KeybboardMouseWindows"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
